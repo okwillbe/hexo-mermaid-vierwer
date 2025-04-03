@@ -1,23 +1,23 @@
-# Hexo Mermaid插件使用指南
+# Hexo Mermaid Viewer 
 
-## 配置参数
-```yml
-mermaid:
-  theme: dark # 可选 dark/default 两种主题模式
-```
-
-## 使用示例
-```markdown
-{% mermaid %}
-graph TD
-  A[开始] --> B(处理)
-  B --> C{判断}
-  C -->|是| D[结束]
-  C -->|否| B
-{% endmermaid %}
-```
+demo.gif
 
 ## 功能特性
-- 自动注入Mermaid主题适配的CSS样式
-- 支持错误边界处理及可视化提示
-- 兼容Hexo 6.x版本
+
+- 🎨 **Mermaid图表支持** - 无缝集成Mermaid图表渲染
+- 🔍 **交互式操作** - 支持拖拽、缩放和平移图表
+- 📊 **多尺寸查看** - 点击放大/缩小/重置视图
+- 💾 **导出功能** - 一键导出图表为PNG/SVG格式
+
+## 安装
+
+1. 在Hexo项目目录中运行：
+
+bash
+
+复制
+
+```bash
+npm install hexo-mermaid-viewer --save
+```
+
